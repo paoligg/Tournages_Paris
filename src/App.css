@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+.texterror{
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.tournage{
+  position:center;
+width: 600px;
+height: 190px;
+border: 3px solid rgb(255, 255, 255);
+}
+.read-the-docs {
+  color: #888;
+}
+.MapContainer {
+  width: 100%;
+  height: 100%;
+  height: 400px;
+  margin: 0 auto;
+  border: 3px solid gray;
+  position: fixed;
+}
+
+.leaflet-container {
+  width: 54vw;
+  height: 50vh;
+}
+.leaflet-marker-icon {
+  width: 20px;
+  height: 20px;
+}
